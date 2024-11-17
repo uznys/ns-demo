@@ -2,6 +2,8 @@
 
 ## API test automation task notes
 
+Postman collection: https://web.postman.co/workspace/9104111d-7cc7-4315-9d0e-cdc46868f199
+
 Security concern #1:
 Access token is leaking unencrypted credentials, e.g. password and signature_key are available.
 
