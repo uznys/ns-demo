@@ -4,7 +4,25 @@
 
 ### UI test automation cadidates
 
-TBD
+- Encryption service with ability to detele the  https://nordpass.com/password-sharer/
+- Integration with breach stats: https://nordpass.com/fortune-500-password-study/
+- Integration with breach stats by email: https://nordpass.com/have-i-been-hacked/
+- Integration with https://api.pwnedpasswords.com in: https://nordpass.com/secure-password/
+- "Get NordPass" download redirects to browser specific site from: https://nordpass.com/digital-stress-management/
+- Download the app: Login > Access my passwords
+- A file download and get in touch form: https://nordpass.com/fortune-500-password-study/
+- Table filter in: https://nordpass.com/most-common-passwords-list/
+- Checks for duplicate emails: https://nordpass.com/try-premium/.
+- Full-screen video in: https://nordpass.com/passkeys/
+- Business name generator: https://nordpass.com/business-name-generator/
+- https://support.nordpass.com/hc/en-us/ new request form.
+- External link in: https://nordpass.com/business-password-manager/#demo
+- [Blocked by missing payment capability] Order Personal plan.
+- [Blocked by missing email checking capability and potential side effect] Start free trial from https://nordpass.com/business-free-trial/
+- [Blocked by missing email checking capability and potential side effect] "Contact Us" form. One of the ways to access: https://nordpass.com/business-password-manager/
+- [Blocked by missing email checking capability and potential side effect] Submit form to get a guide: https://nordpass.com/nordpass-tips-how-to-promote-cybersecurity-in-your-company/
+- [Blocked by missing email checking capability] Subscribe your email: https://nordpass.com/how-to-be-secure-online/
+- [Blocked by a bug] studentbeans.com integration in: https://nordpass.com/deal/student-discount/
 
 ### Potential bugs
 
@@ -14,6 +32,7 @@ TBD
 - In https://nordpass.com/password-sharer/ when a viewed password is deleted, it shows a generic error: "3063: Item is not available. It has been viewed, expired or link is incorrect". Why is this an error?
 - Test environment is not excluded from robots.txt. I found this in Google: https://nordpass.com/playground-temporary/martyna-playground/
 - In https://nordpass.com/affiliate/ "Become an affiliate" link query parameters are missing unlike the "Join now".
+- Security risk of DoS attacks: GraphQL https://pricing.nordsec.com/graphql
 
 ## API test automation task notes
 
