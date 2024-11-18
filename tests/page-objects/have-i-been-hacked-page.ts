@@ -16,6 +16,6 @@ export class HaveIBeenHackedPage {
     }
 
     async assertFoundBreachCount(count: number) {
-        await expect(this.page.getByRole('heading', { name: 'Your data was found in ' + count })).toBeVisible();
+        await expect(this.page.getByRole('heading', { name: `Your data was found in ${count} breaches` })).toBeVisible();
     }
 }
