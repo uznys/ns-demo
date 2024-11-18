@@ -16,6 +16,7 @@ export default defineConfig({
   expect: {
     timeout: 10_000,
   },
+  timeout: 60_000,
 
   projects: [
     {
@@ -34,7 +35,10 @@ export default defineConfig({
 
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: {
+        ...devices['Desktop Safari'],
+        viewport: { width: 1280, height: 1200 }
+      },
     },
   ],
 });

@@ -2,16 +2,22 @@
 
 ## UI test automation task notes
 
+To run tests install NodeJs and then run:
+
+```shell
+npm run test
+```
+
 ### UI test automation cadidates
 
 - [Automated] Encryption service with ability to detele the secret: https://nordpass.com/password-sharer/
 - [Automated] Integration with breach stats by email: https://nordpass.com/have-i-been-hacked/
 - Integration with breach stats: https://nordpass.com/fortune-500-password-study/
 - Integration with https://api.pwnedpasswords.com in: https://nordpass.com/secure-password/
+- Integration with breach stats by country: https://nordpass.com/most-common-passwords-list/
 - "Get NordPass" download redirects to browser specific site from: https://nordpass.com/digital-stress-management/
 - Download the app: Login > Access my passwords
 - A file download and get in touch form: https://nordpass.com/fortune-500-password-study/
-- Table filter in: https://nordpass.com/most-common-passwords-list/
 - Checks for duplicate emails: https://nordpass.com/try-premium/.
 - Full-screen video in: https://nordpass.com/passkeys/
 - Business name generator: https://nordpass.com/business-name-generator/

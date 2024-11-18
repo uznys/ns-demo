@@ -1,15 +1,16 @@
 import { expect, type Page } from '@playwright/test';
 
-export class HaveIBeenHackedPage {
+export class DataBreachScannerPage {
     private page: Page;
 
     constructor(page: Page) {
         this.page = page;
     }
 
-    get dataBreachScannerEmailField() { return this.page.getByTestId('dbs-email-field') };
-    get dataBreachScannerSubmitButton() { return this.page.getByTestId('dbs-submit-button') };
+    get emailField() { return this.page.getByTestId('dbs-email-field') };
     get noBreachesFound() { return this.page.getByRole('heading', { name: 'No breaches found so far' }) };
+    get pageIdentifier() { return this.page.locator('section').filter({ hasText: 'Have I been hacked? Find out' }) };
+    get submitButton() { return this.page.getByTestId('dbs-submit-button') };
 
     async goto() {
         await this.page.goto('https://nordpass.com/have-i-been-hacked/');

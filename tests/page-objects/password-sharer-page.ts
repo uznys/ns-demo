@@ -13,6 +13,7 @@ export class PasswordSharerPage {
     get copySecureLinkButton() { return this.page.getByTestId('password-sharer-copy-secure-link-button') };
     get deleteSecureLinkButton() { return this.page.getByTestId('password-sharer-delete-secure-link-button') };
     get generateSecureLinkButton() { return this.page.getByTestId('password-sharer-generate-secure-link-button') };
+    get pageIdentifier() { return this.page.getByTestId('password-sharer-sender-screen-hero-heading') };
     get secureLinkExpired() { return this.page.getByTestId('password-sharer-receiver-expired-screen-hero-heading') };
     get textAreaForSecret() { return this.page.locator('textarea[name="secret"]') };
     get viewSecretButton() { return this.page.getByTestId('password-sharer-view-secret-button') };
