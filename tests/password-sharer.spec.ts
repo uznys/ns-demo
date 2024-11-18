@@ -1,7 +1,7 @@
 import { test, expect, type Page, type Browser } from '@playwright/test';
-import { PasswordSharerPage } from './password-sharer/password-sharer-page-object';
+import { PasswordSharerPage } from './page-objects/password-sharer-page';
 
-test.describe('Password sharer', () => {
+test.describe('Password Sharer page', () => {
 
   let passwordSharerPage: PasswordSharerPage;
 
