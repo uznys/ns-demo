@@ -4,9 +4,9 @@
 
 ### UI test automation cadidates
 
-- Encryption service with ability to detele the  https://nordpass.com/password-sharer/
-- Integration with breach stats: https://nordpass.com/fortune-500-password-study/
+- [Automated] Encryption service with ability to detele the secret: https://nordpass.com/password-sharer/
 - Integration with breach stats by email: https://nordpass.com/have-i-been-hacked/
+- Integration with breach stats: https://nordpass.com/fortune-500-password-study/
 - Integration with https://api.pwnedpasswords.com in: https://nordpass.com/secure-password/
 - "Get NordPass" download redirects to browser specific site from: https://nordpass.com/digital-stress-management/
 - Download the app: Login > Access my passwords
